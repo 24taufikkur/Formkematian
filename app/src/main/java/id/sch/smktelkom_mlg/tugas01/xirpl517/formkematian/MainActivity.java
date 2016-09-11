@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         bOk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (isValid()) ; //
+                (isValid()); //
 
 
                 String nama = Name.getText().toString();
