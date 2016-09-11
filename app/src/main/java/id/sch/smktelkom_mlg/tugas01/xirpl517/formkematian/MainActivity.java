@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         bOk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                (isValid()); //
+                if (isValid()) ;
 
 
                 String nama = Name.getText().toString();
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if (R2.isChecked()) {
                     level = R2.getText().toString();
-                } else if (R1.isChecked()) ;
+                } else if (R1.isChecked())
                 {
                     level = R1.getText().toString();
                 }
